@@ -1,6 +1,13 @@
 <resources>
-    <string name="app_name">ADSB-Exchange-Map</string>
-
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="app_name">ADSB-Exchange Map</string>
+    <string name="legend">Legend</string>
+    <string name="OK">OK</string>
+    <string name="rawUrl">tar1090.adsbexchange.com</string>
+    <string name="titleCloseDialog">Closing Application</string>
+    <string name="messageCloseDialog">Are you sure you want to close this application?</string>
+    <string name="YES">YES</string>
+    <string name="NO">NO</string>
+    <string name="messageLegend">
+        U: only show the U2 and other military planes\nH: (H)ome / Reset Map\nT: All (T)racks\nL: Toggle (L)abels\nO: Toggle Label Extensi(O)ns\nK: Toggle Trac(K) Labels\nB: Toogle Map (B)rightness\nM: Toggle (M)ultiSelect\nP: (P)ersistence Mode\nI: (I)solate: Only show selected aircraft\nR: Follow a (R)andom plane!\nF: (F)ollow\n
+</string>
 </resources>
