@@ -1,12 +1,18 @@
 # ADSB-Exchange Map
+=====
+
+![GitHub version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=1.0.0&x2=0)
+
+<img alt="Logo" src="/static/logo/Icon.png"/>
+
 This app is an unofficial app for the ADS-B Exchange map (https://tar1090.adsbexchange.com/).
 
 ## Screenshot
 <div style="display:flex;">
-<img alt="App image" src="/screenshots/adsb_mockup_01.png" width="16%">
-<img alt="App image" src="/screenshots/adsb_mockup_02.png" width="16%">
-<img alt="App image" src="/screenshots/adsb_mockup_03.png" width="16%">
-<img alt="App image" src="/screenshots/adsb_mockup_04.png" width="16%">
+<img alt="App image" src="/static/screenshots/adsb_mockup_01.png" width="18%">
+<img alt="App image" src="/static/screenshots/adsb_mockup_02.png" width="18%">
+<img alt="App image" src="/static/screenshots/adsb_mockup_03.png" width="18%">
+<img alt="App image" src="/static/screenshots/adsb_mockup_04.png" width="18%">
 </div>
 
 ## Features
