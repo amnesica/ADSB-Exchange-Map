@@ -8,10 +8,10 @@ This app is an unofficial app for the ADS-B Exchange map (https://tar1090.adsbex
 
 ## Screenshot
 <div style="display:flex;">
-<img alt="App image" src="/static/screenshots/adsb_mockup_01.png" width="25%">
-<img alt="App image" src="/static/screenshots/adsb_mockup_02.png" width="25%">
-<img alt="App image" src="/static/screenshots/adsb_mockup_03.png" width="25%">
-<img alt="App image" src="/static/screenshots/adsb_mockup_04.png" width="25%">
+<img alt="App image" src="/static/screenshots/adsb_mockup_01.png" width="24%">
+<img alt="App image" src="/static/screenshots/adsb_mockup_02.png" width="24%">
+<img alt="App image" src="/static/screenshots/adsb_mockup_03.png" width="24%">
+<img alt="App image" src="/static/screenshots/adsb_mockup_04.png" width="24%">
 </div>
 
 ## Features
