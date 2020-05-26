@@ -3,17 +3,17 @@ This app is an unofficial app for the ADS-B Exchange map (https://tar1090.adsbex
 
 ## Screenshot
 <div style="display:flex;">
-<img alt="App image" src="/screenshots/adsb_mockup_01" width="16%">
-<img alt="App image" src="/screenshots/adsb_mockup_02" width="16%">
-<img alt="App image" src="/screenshots/adsb_mockup_03" width="16%">
-<img alt="App image" src="/screenshots/adsb_mockup_04" width="16%">
+<img alt="App image" src="/screenshots/adsb_mockup_01.png" width="16%">
+<img alt="App image" src="/screenshots/adsb_mockup_02.png" width="16%">
+<img alt="App image" src="/screenshots/adsb_mockup_03.png" width="16%">
+<img alt="App image" src="/screenshots/adsb_mockup_04.png" width="16%">
 </div>
 
 ## Features
-It displays a legend for the icons of the surface to help the spotter.
+It displays a legend for the icons of the surface to help the spotter and (of course) the map itself.
 
 ## Download
-The apk file can be found [here](https://github.com/amnesica/ADSB-Exchange-Map/blob/master/apk/adsb-exchange_map_V1-0-0.apk).
+The apk file can be found [here](https://github.com/amnesica/ADSB-Exchange-Map/blob/master/apk/).
 
 ## Special
 * no advertising
