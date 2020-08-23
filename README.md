@@ -28,4 +28,4 @@ The apk file can be found [here](https://github.com/amnesica/ADSB-Exchange-Map/b
 I have no connection to adsbexchange.com. I respect the rights of adsbexchange.com. If you discover that content in my app violates copyrights, please inform me so I can remove the content.
 
 ## Permissions
-* INTERNET: Required to access https://tar1090.adsbexchange.com/
+* INTERNET: Required to access https://globe.adsbexchange.com/
