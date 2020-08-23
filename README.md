@@ -4,7 +4,7 @@
 
 <img alt="Logo" src="/static/logo/logo.png"/>
 
-This app is an unofficial app for the ADS-B Exchange map (https://tar1090.adsbexchange.com/).
+This app is an unofficial app for the ADS-B Exchange map (https://globe.adsbexchange.com/).
 
 ## Screenshot
 <div style="display:flex;">
