@@ -2,7 +2,7 @@
     <string name="app_name">ADSB-Exchange Map</string>
     <string name="legend">Legend</string>
     <string name="OK">OK</string>
-    <string name="rawUrl">tar1090.adsbexchange.com</string>
+    <string name="rawUrl">globe.adsbexchange.com</string>
     <string name="titleCloseDialog">Closing Application</string>
     <string name="messageCloseDialog">Are you sure you want to close this application?</string>
     <string name="YES">YES</string>

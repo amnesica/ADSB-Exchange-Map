@@ -3,21 +3,22 @@ package com.amnesica.adsb_exchange_map
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 
 /**
  * Class holds an simple webView and displays the map from ADS-B Exchange
  */
 class MapActivity : AppCompatActivity() {
     //url to display
-    private val url = "https://tar1090.adsbexchange.com/"
+    private val url = "https://globe.adsbexchange.com/"
+
     //webView to load url
-    private var myWebView : WebView? = null
+    private var myWebView: WebView? = null
 
 
     @SuppressLint("SetJavaScriptEnabled")
@@ -30,7 +31,7 @@ class MapActivity : AppCompatActivity() {
 
         //floatingActionButton to display help
         val fab: View = findViewById(R.id.fab)
-        fab.setOnClickListener{
+        fab.setOnClickListener {
             AlertDialog.Builder(this)
                 .setTitle(getString(R.string.legend))
                 .setMessage(getString(R.string.messageLegend))
@@ -49,10 +50,12 @@ class MapActivity : AppCompatActivity() {
         myWebView?.webViewClient = object : WebViewClient() {
             override fun shouldOverrideUrlLoading(view: WebView?, url: String?): Boolean {
                 if (Uri.parse(url).host == getString(R.string.rawUrl)) {
-                    // This is my web site, so do not override; let my WebView load the page
-                    view?.loadUrl(url)
+                    //let WebView load the page
+                    if (url != null) {
+                        view?.loadUrl(url)
+                    }
                 }
-                // Otherwise, the link is not for a page on my site, so launch another Activity that handles URLs
+                //link is not for a page on my site, so launch another Activity that handles URLs
                 Intent(Intent.ACTION_VIEW, Uri.parse(url)).apply {
                     startActivity(this)
                 }
@@ -73,14 +76,14 @@ class MapActivity : AppCompatActivity() {
         builder.setMessage(getString(R.string.messageCloseDialog))
 
         //set positive button for okay
-        builder.setPositiveButton(getString(R.string.YES)){ dialog, which ->
+        builder.setPositiveButton(getString(R.string.YES)) { dialog, which ->
             dialog.dismiss()
             //exit application
             finish()
         }
 
         //set negative button
-        builder.setNegativeButton(getString(R.string.NO)){ _, _ ->
+        builder.setNegativeButton(getString(R.string.NO)) { _, _ ->
             //no action here - just close dialog
         }
 
