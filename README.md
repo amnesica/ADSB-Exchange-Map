@@ -1,12 +1,14 @@
-# ADSB-Exchange Map
+<p align="center">
+<img src="/static/logo/logo.png" height="150" title="Logo">
+</p>
 
-![GitHub version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=1.0.1&x2=0)
+<h1 align="center">ADSB-Exchange Map</h1>
 
-<img alt="Logo" src="/static/logo/logo.png"/>
+![GitHub version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=1.1.0&x2=0)
 
 This app is an unofficial app for the ADS-B Exchange map (https://globe.adsbexchange.com/).
 
-## Screenshot
+## Screenshots
 <div style="display:flex;">
 <img alt="App image" src="/static/screenshots/adsb_mockup_01.png" width="24%">
 <img alt="App image" src="/static/screenshots/adsb_mockup_02.png" width="24%">
@@ -17,9 +19,6 @@ This app is an unofficial app for the ADS-B Exchange map (https://globe.adsbexch
 ## Features
 It displays a legend for the icons of the surface to help the spotter and (of course) the map itself.
 
-## Download
-The apk file can be found [here](https://github.com/amnesica/ADSB-Exchange-Map/blob/master/apk/).
-
 ## Special
 * no advertising
 * only necessary permissions
@@ -28,4 +27,5 @@ The apk file can be found [here](https://github.com/amnesica/ADSB-Exchange-Map/b
 I have no connection to adsbexchange.com. I respect the rights of adsbexchange.com. If you discover that content in my app violates copyrights, please inform me so I can remove the content.
 
 ## Permissions
+
 * INTERNET: Required to access https://globe.adsbexchange.com/
